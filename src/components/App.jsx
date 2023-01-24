@@ -1,6 +1,7 @@
-import Form from 'components/Form';
-import Filter from 'components/Filter';
-import Contacts from 'components/Contacts';
+import Form from './Form/Form';
+import Filter from './Filter/Filter';
+import Contacts from './Contacts/Contacts';
+
 
 export const App = () => {
   return (
@@ -14,4 +15,3 @@ export const App = () => {
   );
 };
 
-//
