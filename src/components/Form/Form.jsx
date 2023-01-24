@@ -12,7 +12,7 @@ const Form = () => {
             addContacts({
                 id: uniqid(),
                 name:form.elements.name.value,
-                number: form.elements.nuber.value,
+                number: form.elements.number.value,
             })
         );
         form.reset();
